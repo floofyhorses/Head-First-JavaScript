@@ -14,7 +14,7 @@ window.onload = function() {
 			setTimeout(reblur, 3000, image);
          }
 
-//LEARNING MOMENT: The photos for the unblurred image broke every time no mattered what I did
+//LEARNING MOMENT: The photos for the unblurred image broke every time no matter what I did
 //I finally realized that I had added an extra space in the "" when concatenating, (at line 11),which
 //made the file name not add the .jpg properly and thus not return the img file. *facepalms*
 
